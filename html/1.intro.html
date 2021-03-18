@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro</title>
+</head>
+<body>
+    
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'helooo brooo'">click me</button>
+
+
+
+<p id="demo">what is this </p>
+
+<!-- image -->
+
+
+
+<button onclick="document.getElementById('image1').src = 'images/fashion-women-2.png'">1 image</button>
+
+<img id="image1" src="images/fashion-women-1.png" alt="" width="100px">
+
+<button onclick="document.getElementById('image1').src = 'images/fashion-women-3.png'">2 image</button>
+
+<button onclick="document.getElementById('image1').src = 'images/fashion-women-1.png'">main image</button>
+
+
+<!-- css font manupulate -->
+
+<p id="font">hello bro how are you?</p>
+
+<button onclick="document.getElementById('font').style.fontSize = '30px'">font size</button>
+
+
+
+<!-- Hide data -->
+
+<p id="hide">data to hide</p>
+
+<button onclick="document.getElementById('hide').style.display = 'none'">Hide</button>
+
+
+
+<!-- show hided data -->
+
+<p id="show" style="display: none;">show data</p>
+
+<button onclick="document.getElementById('show').style.display = 'block'">show</button>
+
+
+
+
+
+
+<!-- //////////////////////////////////////////////////////////////// -->
+
+
+
+
+<p id="text"></p>
+
+<script>
+    document.getElementById('text').innerHTML = "javascript Text";
+</script>
+
+
+<!-- function in script -->
+
+<p id="p2">paragraph</p>
+
+<button onclick="myfunction()">change</button>
+
+<script>
+    function myfunction() {
+        document.getElementById('p2').innerHTML = 'changed';
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
